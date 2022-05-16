@@ -28,6 +28,6 @@ export class CalculatePricesUseCase {
 		const descont = descontObj[plan]
 		const valuewithplan = (Number(minute) - descont) * (priceMin.value * 1.1) + "";
 
-		return { status: 404, msg:{plan, value, valuewithplan} }
+		return { status: 200, msg:{plan, value, valuewithplan} }
 	}
 }
