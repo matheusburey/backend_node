@@ -1,7 +1,7 @@
 import { Request, Response, Router } from "express";
 
 import { PrismaPriceRepository } from "./repositories/prisma/PrismaPricesRepository";
-import { CalculatePricesUseCase } from "./useCase/findPricesUseCase";
+import { CalculatePricesUseCase } from "./useCase/CalculatePricesUseCase";
 
 export const router = Router();
 
